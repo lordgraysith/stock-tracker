@@ -1,0 +1,24 @@
+{
+  "name": "stock-tracker",
+  "version": "1.0.0",
+  "description": "Tracks your stocks",
+  "main": "app.js",
+  "dependencies": {
+    "monument": "^1.5.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0"
+  },
+  "scripts": {
+  	"start": "node app.js",
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "*",
+    "iojs": "1.0.x"
+  }
+}
