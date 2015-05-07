@@ -21,7 +21,7 @@ gulp.task('server', function() {
 
     node.on('close', function (code) {
         if (code === 8) {
-          gulp.log('Error detected, waiting for changes...');
+          console.log('Error detected, waiting for changes...');
         }
     });
 });
