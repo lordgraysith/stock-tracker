@@ -17,7 +17,7 @@ gulp.task('server', function() {
         node.kill();
     }
     
-    node = spawn('node', ['app.js'], {stdio: 'inherit'});
+    node = spawn('node-debug', ['app.js'], {stdio: 'inherit'});
 
     node.on('close', function (code) {
         if (code === 8) {

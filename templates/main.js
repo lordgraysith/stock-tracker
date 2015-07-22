@@ -1,4 +1,5 @@
-(function(){function main(it) {
+(function(){function main(it
+/**/) {
 var out='<h1>Welcome to monument</h1><p>"It never gets easier, you just go faster" - Greg Lemond</p><p> You are on version '+( it.version )+' of your project</p>';return out;
 }var itself=main, _encodeHTML=(function (doNotSkipEncoded) {
 		var encodeHTMLRules = { "&": "&#38;", "<": "&#60;", ">": "&#62;", '"': "&#34;", "'": "&#39;", "/": "&#47;" },
