@@ -1,6 +1,7 @@
 var monument = require('monument');
 
 require('./data/stock');
+require('./data/target');
 monument.server({
 				routePath: './routes'
 				, templatePath: './templates'

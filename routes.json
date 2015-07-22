@@ -1,4 +1,5 @@
 {
 	"/": ["get"],
-	"/stock" : ["get"]
+	"/stock" : ["get"],
+	"/targets" : ["get","post","patch"]
 }
